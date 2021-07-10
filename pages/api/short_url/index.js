@@ -1,27 +1,28 @@
-import axiosBase from 'axios';
-
-const options = {
-  method: 'POST',
-  baseURL: 'https://url-shortener-service.p.rapidapi.com',
-  params: {}, // URLに含めるパラメータをjsonで指定する ⇒ {{url}}?type=test&q=search  など
-  headers: {
-    'content-type': 'application/json',
-    'x-rapidapi-key': process.env.xRapidapiKey,
-    'x-rapidapi-host': 'url-shortener-service.p.rapidapi.com',
-  },
-};
-const axios = axiosBase.create(options);
+import { shortenerApi } from '@util/api';
 
 export default async (req, res) => {
-  await axios
-    .post('/shorten', { url: 'https://google.com/' })
-    .then((responseData) => {
-      console.log(responseData.data);
-      res.statusCode = 200;
-      res.json(responseData.data);
-    })
-    .catch((err) => {
-      res.statusCode = 400;
-      res.json({ error: err });
-    });
+  const {
+    query: { url },
+    method,
+  } = req;
+  let fullUrl = url || 'https://google.com/';
+  switch (method) {
+    case 'GET':
+      await shortenerApi
+        .post('/shorten', { url: fullUrl })
+        .then((responseData) => {
+          console.log(responseData.data);
+          res.status(200).json({
+            base_url: fullUrl,
+            short_url: responseData.data.result_url || '',
+          });
+        })
+        .catch((err) => {
+          res.status(400).json({ error: err });
+        });
+      break;
+    default:
+      res.setHeader('Allow', ['GET']);
+      res.status(405).end(`Method ${method} Not Allowed`);
+  }
 };
