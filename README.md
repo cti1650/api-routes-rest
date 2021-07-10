@@ -35,6 +35,10 @@
 - [Node.js 公式ドキュメント API 関連](https://nodejs.org/api/http.html)
 - [Next.js 公式ドキュメント API Routes](https://nextjs.org/docs/api-routes/introduction)
 
+### エラー対応
+
+- [Git で大文字と小文字両方のフォルダができてしまったときにどちらか片方を消す方法](https://qiita.com/inductor/items/6d58afd9f6b741208439)
+
 ## 使用ツール
 
 ### VSCode
