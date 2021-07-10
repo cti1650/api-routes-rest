@@ -24,6 +24,7 @@
 
 - [HTTP レスポンスステータスコード](https://developer.mozilla.org/ja/docs/Web/HTTP/Status)
 - [【PHP】header()関数](https://deep-blog.jp/engineer/12665/)
+- [よくある MIME タイプ](https://developer.mozilla.org/ja/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types)
 
 ### WebAPI 関連
 
@@ -34,6 +35,7 @@
 - [Next.js + Vercel で OGP の画像を動的に生成する](https://zenn.dev/tiwu_dev/articles/68d58d4ab710af)
 - [Node.js 公式ドキュメント API 関連](https://nodejs.org/api/http.html)
 - [Next.js 公式ドキュメント API Routes](https://nextjs.org/docs/api-routes/introduction)
+- [Node.js Redirect URL](https://stackoverflow.com/questions/6234380/nodejs-redirect-url)
 
 ### エラー対応
 
