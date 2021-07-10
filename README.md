@@ -20,6 +20,7 @@
 - [Google翻訳APIを無料で作る方法](https://qiita.com/satto_sann/items/be4177360a0bc3691fdf)
 - [日本の全エンジニアに捧ぐ！現在公開されているAPI一覧【2013年版】](https://www.find-job.net/startup/api-2013)
 - [Rakuten Rapid API](https://api.rakuten.net/)
+- [URL Shortener Service](https://api.rakuten.net/BigLobster/api/url-shortener-service)
 
 ## 使用ツール
 ### VSCode
