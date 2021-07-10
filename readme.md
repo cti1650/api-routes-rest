@@ -60,26 +60,26 @@ github との連携や動作確認などソースコードの管理になくて�
 
 ### mkfile
 
-- [テキストファイル表示](https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=text)
+- [テキストファイル表示](https://api-routes-rest-cti1650.vercel.app/api/mkfile?type=text)
 
 ```
-https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=text
+https://api-routes-rest-cti1650.vercel.app/api/mkfile?type=text
 ```
 
-- [CSV ファイルをダウンロード](https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=csv)
+- [CSV ファイルをダウンロード](https://api-routes-rest-cti1650.vercel.app/api/mkfile?type=csv)
 
 ```
-https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=csv
+https://api-routes-rest-cti1650.vercel.app/api/mkfile?type=csv
 ```
 
-- [PDF ファイルをダウンロード](https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=pdf)
+- [PDF ファイルをダウンロード](https://api-routes-rest-cti1650.vercel.app/api/mkfile?type=pdf)
 
 ```
-https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=pdf
+https://api-routes-rest-cti1650.vercel.app/api/mkfile?type=pdf
 ```
 
-- [指定 URL にリダイレクト](https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=link)
+- [指定 URL にリダイレクト](https://api-routes-rest-cti1650.vercel.app/api/mkfile?type=link)
 
 ```
-https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=link
+https://api-routes-rest-cti1650.vercel.app/api/mkfile?type=link
 ```
