@@ -55,3 +55,31 @@ github との連携や動作確認などソースコードの管理になくて�
 
 - [Vim モード入門](https://qiita.com/gorilla0513/items/e8ccb15bfc87e7ed8d5b)
 - [Vim チートシートを作りました（超初心者用）](https://qiita.com/hattys2/items/56d973ad4f197b751501)
+
+## 使い方
+
+### mkfile
+
+- [テキストファイル表示](https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=text)
+
+```
+https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=text
+```
+
+- [CSV ファイルをダウンロード](https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=csv)
+
+```
+https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=csv
+```
+
+- [PDF ファイルをダウンロード](https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=pdf)
+
+```
+https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=pdf
+```
+
+- [指定 URL にリダイレクト](https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=link)
+
+```
+https://api-routes-rest-cti1650.vercel.app/api/mkdir?type=link
+```
