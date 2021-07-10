@@ -20,3 +20,12 @@
 - [Google翻訳APIを無料で作る方法](https://qiita.com/satto_sann/items/be4177360a0bc3691fdf)
 - [日本の全エンジニアに捧ぐ！現在公開されているAPI一覧【2013年版】](https://www.find-job.net/startup/api-2013)
 - [Rakuten Rapid API](https://api.rakuten.net/)
+
+## 利用ツール
+### VSCode
+
+### Vim
+覚えて慣れるまでは大変そうですが、ソースをコピペするだけなどの用途だとコマンドのみでpushまで完結してしまうので、  
+慣れるとめちゃくちゃ効率良さそうなのでゆっくり学習していきます！
+- [Vimモード入門](https://qiita.com/gorilla0513/items/e8ccb15bfc87e7ed8d5b)
+- [Vimチートシートを作りました（超初心者用）](https://qiita.com/hattys2/items/56d973ad4f197b751501)
