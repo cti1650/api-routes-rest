@@ -21,8 +21,10 @@
 - [日本の全エンジニアに捧ぐ！現在公開されているAPI一覧【2013年版】](https://www.find-job.net/startup/api-2013)
 - [Rakuten Rapid API](https://api.rakuten.net/)
 
-## 利用ツール
+## 使用ツール
 ### VSCode
+githubとの連携や動作確認などソースコードの管理になくてはならない存在です！  
+とは言いつつウェブで完結する統合開発環境や「github desctop」など誘惑多しです！
 
 ### Vim
 覚えて慣れるまでは大変そうですが、ソースをコピペするだけなどの用途だとコマンドのみでpushまで完結してしまうので、  
