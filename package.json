@@ -2,7 +2,7 @@
   "name": "api-routes-rest",
   "version": "1.0.0",
   "scripts": {
-    "dev": "node bot.js",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "serve": "node bot.js"
