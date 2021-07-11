@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "serve": "node bot.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
